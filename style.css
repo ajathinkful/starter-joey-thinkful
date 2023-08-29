@@ -1,0 +1,44 @@
+header{
+  background-color: #0B1C51;
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif; /* Use "Montserrat" as the preferred font */
+  font-size: 52px; /* Set the font size for the title */
+}
+
+header p {
+  font-family: "Montserrat", sans-serif; 
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu{
+  display: flex;
+  list-style-type: none;
+  /* border: 1px solid red; */
+  /* justify-content: space-between; */
+  gap: 10px;
+  font-family: "Montserrat", sans-serif
+}
+
+
+@media all and (min-width: 600px){
+  header{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header h1 {
+    font-size: 30px; /* Adjust title font size for desktop */
+  }
+
+}
+
